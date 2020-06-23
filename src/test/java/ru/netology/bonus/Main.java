@@ -1,3 +1,5 @@
+package ru.netology.bonus;
+
 public class Main {
     public static void main(String[] args) {
         BonusService service = new BonusService();
@@ -10,8 +12,6 @@ public class Main {
         boolean passed = actual == expected;
 
         System.out.println(passed);
-//        long bonusBelowLimitForRegistered = service.calculate(1000_60, true);
-//        System.out.println(bonusBelowLimitForRegistered);
 
         long bonusOverLimitForRegistered = service.calculate(1_000_000_60, true);
         System.out.println(bonusOverLimitForRegistered);
