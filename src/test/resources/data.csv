@@ -1,0 +1,8 @@
+"registered user, under limit", 100060, 30, true
+"registered user, over limit", 100000060, 500, true
+"unregistered user, under limit", 100060, 10, false
+"unregistered user, over limit", 100000060, 500, false
+"registered user, under limit", 500000, 150, true
+"registered user, over limit", 300000000, 500, true
+"unregistered user, under limit", 500000, 50, false
+"unregistered user, over limit", 500000000, 500, false
